@@ -1,9 +1,9 @@
 import { useRecoilState } from 'recoil';
-import { testHomePageAtom } from './HomePage';
+import { testHomePageAtom } from '@/pages/HomePage';
 
 const PageOne = () => {
   const [testValue, setTestValue] = useRecoilState(testHomePageAtom);
-  console.log(testValue)
+  console.log(testValue);
   return (
     <div>
       <button
